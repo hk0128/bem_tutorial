@@ -1,0 +1,83 @@
+
+.todo {
+    width: 600px;
+    margin: auto;
+}
+
+/* 入力欄周りのスタイル */
+.todo__form {
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.todo__form--text {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.todo__form--date {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.todo__form--button {
+    display: block;
+    margin-top: 5px;
+}
+
+/* 一覧周りのスタイル */
+.todo__table {
+    width: 600px;
+    margin-top: 30px;
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+.todo__table--header {
+    font-weight: bold;
+}
+
+.todo__table--header td {
+    text-align: center;
+}
+
+.todo__table--body {
+    font-weight: normal;
+}
+
+.todo__table--record {
+    border: 1px solid #333;
+}
+
+.todo__table--column {
+    border: 1px solid #333;
+    padding: 3px 10px;
+}
+
+/* カラムごとの細かい指定 */
+.todo__table--columnId {
+    width: 5%;
+    text-align: center;
+}
+
+.todo__table--columnTask {
+    width: 50%;
+}
+
+.todo__table--columnLimit {
+    width: 20%;
+    text-align: center;
+}
+
+.todo__table--columnDelete {
+    width: 10%;
+    text-align: center;
+}
+
+.todo__table--columnNoRecord {
+    width: 100%;
+    text-align: center;
+}
